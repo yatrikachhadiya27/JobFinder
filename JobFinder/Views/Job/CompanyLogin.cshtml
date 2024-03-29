@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/global.css" />
+    <link rel="stylesheet" href="~/css/company-login.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+</head>
+<body>
+    <div class="company-login">
+        <img class="login-rectangle-icon"
+             alt=""
+             src="~/public/sign-in-text@2x.png" />
+        <form class="rectangle-parent132">
+            <div class="frame-child140"></div>
+            <div class="sign-in-group">
+                <div class="account-sign-in2">Account Sign In</div>
+            </div>
+            <div class="frame-group3">
+                <div class="user-account-company-account">
+                    <button class="rectangle-parent133">
+                        <div class="frame-child141"></div>
+                        <b class="user-account4"><a asp-action="UserSignup" asp-controller="Job" style="text-decoration:none">User Account</a></b>
+                    </button>
+                    <button class="rectangle-parent134">
+                        <div class="frame-child142"></div>
+                        <b class="company-account3"><a asp-action="CompanySignup" asp-controller="Job" style="text-decoration:none">Company Account</a></b>
+                    </button>
+                </div>
+            </div>
+            <div class="login-button-frame">
+                <div class="create-account-text1">
+                    <div class="forgot-password-link-text">
+                        <div class="email-address13">Email Address</div>
+                        <div class="password-input1">
+                            <div class="password-input-item"></div>
+                            <input class="googlegmailcom1"
+                                   placeholder="google@gmail.com"
+                                   type="text" />
+                        </div>
+                    </div>
+                    <div class="forgot-password-link-text1">
+                        <div class="password6">Password</div>
+                        <div class="rectangle-parent135">
+                            <div class="frame-child143"></div>
+                            <input class="input1" placeholder="************" type="text" />
+                        </div>
+                    </div>
+                    <button class="login-button">
+                        <div class="login3">Login</div>
+                    </button>
+                </div>
+            </div>
+            <div class="no-account-message">
+                <div class="do-not-have-container1">
+                    <span class="do-not-have1">Do not have an account </span>
+                    <span class="create-account4"><a asp-action="CompanySignup" asp-controller="Job" style="text-decoration:none">Create Account</a></span>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

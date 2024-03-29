@@ -1,0 +1,679 @@
+.company-frame-icon {
+  width: 100%;
+  height: 974px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-child129 {
+  height: 143px;
+  width: 1728px;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  max-width: 100%;
+}
+.finder10,
+.job10 {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.finder10 {
+  color: var(--color-steelblue-200);
+}
+.rectangle2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-115xl) 0 0;
+}
+.companies11,
+.find-job10 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.find-job10 {
+  height: 36px;
+  white-space: nowrap;
+}
+.companies11 {
+  width: 143px;
+}
+.text2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.upload-job11 {
+  flex: 1;
+  white-space: nowrap;
+}
+.about11,
+.upload-job11 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.find-job-frame1 {
+  width: 610px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 38.33px;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.frame-child130 {
+  height: 82px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  border: 3px solid var(--color-royalblue-200);
+  box-sizing: border-box;
+  display: none;
+}
+.sign-in9 {
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent122 {
+  cursor: pointer;
+  border: 3px solid var(--color-royalblue-200);
+  padding: var(--padding-xl);
+  background-color: transparent;
+  width: 235px;
+  border-radius: var(--br-31xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.rectangle-parent122:hover {
+  background-color: var(--color-dodgerblue-300);
+  border: 3px solid var(--color-dodgerblue-100);
+  box-sizing: border-box;
+}
+.frame-child131,
+.rectangle-parent121 {
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.rectangle-parent121 {
+  align-self: stretch;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-12xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-royalblue-200);
+  font-family: var(--font-lato);
+}
+.frame-child131 {
+  width: 665px;
+  height: 730px;
+  position: relative;
+  border-radius: var(--br-xs-7);
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.1), 4px -4px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.create-account2 {
+  height: 35px;
+  position: relative;
+  font-size: var(--font-size-10xl-3);
+  font-weight: 800;
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xl) 0;
+}
+.frame-child132 {
+  height: 52.7px;
+  width: 298.4px;
+  position: relative;
+  border-radius: 5.85px;
+  background-color: var(--color-white);
+  border: 1.8px solid var(--color-steelblue-200);
+  box-sizing: border-box;
+  display: none;
+}
+.user-account3 {
+  height: 28px;
+  position: relative;
+  font-size: var(--font-size-4xl-4);
+  display: inline-block;
+  font-family: var(--font-lato);
+  color: var(--color-royalblue-400);
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent124 {
+  cursor: pointer;
+  border: 1.8px solid var(--color-steelblue-200);
+  padding: var(--padding-xs) var(--padding-59xl) var(--padding-xs)
+    var(--padding-60xl);
+  background-color: var(--color-white);
+  border-radius: 5.85px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent124:hover {
+  background-color: var(--color-gainsboro);
+  border: 1.8px solid var(--color-steelblue-300);
+  box-sizing: border-box;
+}
+.frame-child133 {
+  height: 52.7px;
+  width: 298.4px;
+  position: relative;
+  border-radius: 5.85px;
+  background-color: var(--color-lightsteelblue-300);
+  display: none;
+}
+.company-account2 {
+  position: relative;
+  font-size: var(--font-size-4xl-4);
+  font-family: var(--font-lato);
+  color: var(--color-royalblue-400);
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent125 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-34xl) var(--padding-xs)
+    var(--padding-35xl);
+  background-color: var(--color-lightsteelblue-300);
+  border-radius: 5.85px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+  margin-left: -1px;
+}
+.rectangle-parent125:hover {
+  background-color: var(--color-steelblue-100);
+}
+.frame-parent51,
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-parent51 {
+  flex-wrap: wrap;
+  padding: 0 var(--padding-11xs) 0 0;
+  row-gap: 20px;
+}
+.group {
+  padding: 0 var(--padding-12xs) 0 var(--padding-9xs);
+}
+.email-address12 {
+  position: relative;
+  font-size: var(--font-size-2xl-6);
+  font-weight: 600;
+  font-family: var(--font-lato);
+  color: var(--color-dimgray-600);
+  text-align: left;
+  z-index: 1;
+}
+.frame-child134 {
+  height: 62px;
+  width: 596.8px;
+  position: relative;
+  border-radius: 5.85px;
+  background-color: var(--color-white);
+  border: 1.2px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.yatrigmailcom {
+  width: 139px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-lgi-3);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 2;
+}
+.email-address-parent,
+.group1,
+.rectangle-parent126 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent126 {
+  align-self: stretch;
+  border-radius: 5.85px;
+  background-color: var(--color-white);
+  border: 1.2px solid var(--color-black);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-lgi) var(--padding-lg) var(--padding-xl);
+  z-index: 1;
+}
+.email-address-parent,
+.group1 {
+  align-items: flex-start;
+}
+.email-address-parent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 7px 0;
+}
+.group1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-4xs) var(--padding-8xs);
+}
+.company-name {
+  position: relative;
+  font-size: var(--font-size-2xl-6);
+  font-weight: 600;
+  font-family: var(--font-lato);
+  color: var(--color-dimgray-600);
+  text-align: left;
+  z-index: 1;
+}
+.frame-child135 {
+  height: 62px;
+  width: 596.8px;
+  position: relative;
+  border-radius: 5.85px;
+  background-color: var(--color-white);
+  border: 1.2px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.company-name1 {
+  width: 133px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-lgi-3);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: var(--color-darkgray-200);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.company-name-parent,
+.group2,
+.rectangle-parent127 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent127 {
+  align-self: stretch;
+  border-radius: 5.85px;
+  background-color: var(--color-white);
+  border: 1.2px solid var(--color-black);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xl) var(--padding-lg) var(--padding-lgi);
+  z-index: 1;
+}
+.company-name-parent,
+.group2 {
+  align-items: flex-start;
+}
+.company-name-parent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 7px 0;
+}
+.group2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.password4 {
+  width: 88px;
+  position: relative;
+  font-size: var(--font-size-2xl-6);
+  font-weight: 600;
+  font-family: var(--font-lato);
+  color: var(--color-dimgray-600);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-child136 {
+  height: 62px;
+  width: 294px;
+  position: relative;
+  border-radius: 5.85px;
+  background-color: var(--color-white);
+  border: 1.2px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.user-account-company {
+  width: 97px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-lgi-3);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.confirm-password-input,
+.rectangle-parent128 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangle-parent128 {
+  border-radius: 5.85px;
+  background-color: var(--color-white);
+  border: 1.2px solid var(--color-black);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-lgi) var(--padding-mid) var(--padding-xl);
+  z-index: 1;
+}
+.confirm-password-input {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px 0;
+}
+.create-account3 {
+  height: 28px;
+  position: relative;
+  font-size: var(--font-size-4xl-4);
+  font-weight: 600;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.frame-group-user-account-compa {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-19xl) var(--padding-2xs)
+    var(--padding-18xl);
+  background-color: var(--color-royalblue-300);
+  border-radius: 5.85px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-group-user-account-compa:hover {
+  background-color: var(--color-dodgerblue-200);
+}
+.confirm-password-input-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px 0;
+  min-width: 191px;
+}
+.confirm-password1 {
+  position: relative;
+  font-size: var(--font-size-2xl-6);
+  font-weight: 600;
+  font-family: var(--font-lato);
+  color: var(--color-dimgray-600);
+  text-align: left;
+  z-index: 1;
+}
+.frame-child137 {
+  height: 62px;
+  width: 294px;
+  position: relative;
+  border-radius: 5.85px;
+  background-color: var(--color-white);
+  border: 1.2px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.password5 {
+  width: 80px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-lgi-3);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: var(--color-darkgray-300);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.login-link-text,
+.rectangle-parent129 {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangle-parent129 {
+  align-self: stretch;
+  border-radius: 5.85px;
+  background-color: var(--color-white);
+  border: 1.2px solid var(--color-black);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-lgi) var(--padding-mid) var(--padding-xl);
+  z-index: 1;
+}
+.login-link-text {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px 0;
+  min-width: 191px;
+}
+.create-account-text,
+.frame-email-address-company-na {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.create-account-text {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 0 10px;
+}
+.frame-email-address-company-na {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.already-has-an1 {
+  color: var(--color-dimgray-500);
+  white-space: pre-wrap;
+}
+.login2 {
+  color: var(--color-royalblue-200);
+}
+.already-has-an-container1 {
+  width: 322px;
+  position: relative;
+  font-size: var(--font-size-4xl-4);
+  font-weight: 600;
+  font-family: var(--font-lato);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.already-has-an-account-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.company-signup,
+.rectangle-parent123 {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-parent123 {
+  margin: 0;
+  width: 665px;
+  border-radius: var(--br-xs-7);
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.1), 4px -4px 10px rgba(0, 0, 0, 0.1);
+  padding: var(--padding-12xl) var(--padding-14xl) var(--padding-25xl)
+    var(--padding-10xl);
+  gap: var(--gap-7xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.company-signup {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 143px;
+  gap: 101px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .rectangle2 {
+    display: none;
+  }
+  .rectangle-parent123 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .company-signup {
+    gap: 101px 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .find-job-frame1 {
+    gap: 0 38.33px;
+  }
+  .rectangle-parent125 {
+    margin-left: 0;
+  }
+  .rectangle-parent123 {
+    width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangle2 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .find-job-frame1 {
+    display: none;
+  }
+  .create-account2 {
+    font-size: var(--font-size-4xl);
+  }
+  .rectangle-parent124,
+  .rectangle-parent125 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .company-name,
+  .email-address12,
+  .password4 {
+    font-size: var(--font-size-mid);
+  }
+  .confirm-password-input-parent {
+    gap: 40px 0;
+  }
+  .confirm-password1 {
+    font-size: var(--font-size-mid);
+  }
+  .already-has-an-container1 {
+    font-size: var(--font-size-lgi);
+  }
+  .company-signup {
+    gap: 101px 0;
+  }
+}

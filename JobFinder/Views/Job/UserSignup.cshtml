@@ -1,0 +1,119 @@
+﻿@model UserModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/global.css" />
+    <link rel="stylesheet" href="~/css/user-signup.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+</head>
+<body>
+    <div class="user-signup">
+        <img class="sign-up-rectangle"
+             alt=""
+             src="~/public/sign-in-text@2x.png" />
+
+        @* <header class="rectangle-parent114">
+            <div class="frame-child122"></div>
+            <div class="frame-group2">
+                <b class="job9">Job</b>
+                <b class="finder9">Finder</b>
+            </div>
+            <div class="find-job-upload-frame">
+                <div class="find-job9">Find Job</div>
+                <div class="companies-text">
+                    <div class="companies10">Companies</div>
+                </div>
+                <div class="upload-job10">Upload Job</div>
+                <div class="about10">About</div>
+            </div>
+            <button class="rectangle-parent115">
+                <div class="frame-child123"></div>
+                <b class="sign-in8">Sign In</b>
+            </button>
+        </header> *@
+        <br />
+        <form class="rectangle-parent116" method="post">
+            <div class="frame-child124"></div>
+            <div class="password-frame">
+                <div class="account-sign-in1">Account Sign In</div>
+            </div>
+            <div class="last-name-frame">
+                <div class="confirm-password-frame">
+                    <button class="rectangle-parent117">
+                        <div class="frame-child125"></div>
+                        <b class="user-account1"><a asp-action="UserSignup" asp-controller="Job" style="text-decoration:none">User Account</a></b>
+                    </button>
+                    <button class="rectangle-parent118">
+                        <div class="frame-child126"></div>
+                        <b class="company-account1"><a asp-action="CompanySignup" asp-controller="Job" style="text-decoration:none">Company Account</a></b>
+                    </button>
+                </div>
+            </div>
+            <div class="input-email-frame">
+                <div class="input-passwd-frame">
+                    <div class="email-address11">Email Address</div>
+                    <div class="email-input">
+                        <div class="email-input-child"></div>
+                        <input class="exampleexamplecom1"
+                               placeholder="example@example.com"
+                               type="text" asp-for="UserEmail"/>
+                    </div>
+                </div>
+            </div>
+            <div class="create-account-button">
+                <div class="first-name-input-parent">
+                    <div class="first-name-input">
+                        <div class="last-name-input">
+                            <div class="first-name">First Name</div>
+                            <div class="password-input">
+                                <div class="password-input-child"></div>
+                                <input class="eg-yatri" placeholder="eg. Yatri" type="text" asp-for="FirstName"/>
+                            </div>
+                        </div>
+                        <div class="last-name-input1">
+                            <div class="password2">Password</div>
+                            <div class="rectangle-parent119">
+                                <div class="frame-child127"></div>
+                                <input class="input" placeholder="************" type="text" asp-for="UserPassword"/>
+                            </div>
+                        </div>
+                        <button class="create-account-wrapper" type="submit">
+                            <div class="create-account1">Create Account</div>
+                        </button>
+                    </div>
+                    <div class="already-has-account-label">
+                        <div class="last-name-parent">
+                            <div class="last-name">Last Name</div>
+                            <div class="user-account2">
+                                <div class="user-account-child"></div>
+                                <input class="kachhadiya"
+                                       placeholder="Kachhadiya"
+                                       type="text" asp-for="LastName"/>
+                            </div>
+                        </div>
+                        <div class="confirm-password-parent">
+                            <div class="confirm-password">Confirm Password</div>
+                            <div class="rectangle-parent120">
+                                <div class="frame-child128"></div>
+                                <input class="password3" placeholder="Password" type="text" asp-for="ConfirmPassword"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sign-in-link">
+                <div class="already-has-an-container">
+                    <span class="already-has-an">Already has an account? </span>
+                    <span class="login1"><a asp-action="UserLogin" asp-controller="Job" style="text-decoration:none">Login</a></span>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

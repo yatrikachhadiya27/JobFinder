@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - JobFinder</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/JobFinder.styles.css" asp-append-version="true" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/upload-job.css" />
+    <link rel="stylesheet" href="~/css/global.css" />
+    <link rel="stylesheet" href="~/css/index.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+</head>
+<body>
+    <header class="title-company">
+        <div class="text-about-us">
+            <div class="button-our-team">
+                <h1 class="job">Job</h1>
+                <h1 class="finder">Finder</h1>
+            </div>
+        </div>
+        <div class="line-separator">
+            <h2 class="find-job">
+                <a class="nav-link" asp-controller="Job" asp-action="JobDetails" style="color:black">Find Job</a>
+            </h2>
+            <h2 class="companies">
+                <a class="nav-link" asp-controller="Job" asp-action="Companies" style="color:black">Companies</a>
+            </h2>
+            <h2 class="upload-job">
+                <a class="nav-link" asp-controller="Job" asp-action="JobPorter" style="color:black">Upload Jobs</a>
+            </h2>
+            <h2 class="about">
+                <a class="nav-link" asp-controller="Job" asp-action="About" style="color:black">About</a>
+            </h2>
+        </div>
+        <button class="rectangle-parent">
+            <div class="frame-child"></div>
+            <b class="sign-in"><a asp-action="UserSignup" asp-controller="Job" style="color:black;text-decoration:none">Sign In</a></b>
+        </button>
+    </header>
+]    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="vector-parent">
+        <img class="rectangle-icon" alt="" src="./public/rectangle-14.svg" />
+
+        <div class="frame-company-home-about-us-se">
+            <div class="support-frame-group">
+                <div class="company-info">
+                    <h2 class="company">Company</h2>
+                    <h2 class="home">Home</h2>
+                    <h2 class="about-us">About Us</h2>
+                    <h2 class="services">Services</h2>
+                    <h2 class="our-team">Our Team</h2>
+                </div>
+                <div class="policy-parent">
+                    <h2 class="policy">Policy</h2>
+                    <h2 class="policies">Policies</h2>
+                    <h2 class="contact">Contact</h2>
+                    <h2 class="faq">FAQ</h2>
+                </div>
+                <div class="company-info1">
+                    <h2 class="support">Support</h2>
+                    <h2 class="account">Account</h2>
+                    <h2 class="support-center">Support Center</h2>
+                    <h2 class="feedback">Feedback</h2>
+                    <h2 class="accessibility">Accessibility</h2>
+                </div>
+            </div>
+        </div>
+        <div class="frame-wrapper19">
+            <div class="subscribe-to-our-newsletter-parent">
+                <h2 class="subscribe-to-our">Subscribe to our Newsletter</h2>
+                <div class="home-page1">
+                    <div class="support-area">
+                        <div class="services-section">
+                            <div class="our-team-title">
+                                <div class="our-team-title-child"></div>
+                                <h3 class="email-address">Email Address</h3>
+                            </div>
+                            <button class="subscribe-form">
+                                <div class="subscribe-form-child"></div>
+                                <div class="subscribe1">Subscribe</div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <img class="iconoirfacebook"
+                             loading="lazy"
+                             alt=""
+                             src="~/public/iconoirfacebook.svg" />
+
+                        <img class="simple-iconsx"
+                             loading="lazy"
+                             alt=""
+                             src="~/public/simpleiconsx.svg" />
+
+                        <img class="mdiinstagram-icon"
+                             loading="lazy"
+                             alt=""
+                             src="~/public/mdiinstagram.svg" />
+
+                        <img class="rilinkedin-fill-icon"
+                             loading="lazy"
+                             alt=""
+                             src="~/public/rilinkedinfill.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-icons">
+            <div class="footer-icons-child"></div>
+            <div class="job-finder">© 2024 Job Finder</div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+﻿@model UserModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/global.css" />
+    <link rel="stylesheet" href="~/css/user-login.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+</head>
+<body>
+    <div class="user-login">
+        <img class="sign-in-text1" alt="" src="~/public/sign-in-text@2x.png" />
+
+       @*  <header class="group-header">
+            <div class="frame-child115"></div>
+            <div class="email-field">
+                <b class="job8">Job</b>
+                <b class="finder8">Finder</b>
+            </div>
+            <div class="job-finder-frame3">
+                <div class="find-job8">Find Job</div>
+                <div class="companies-label">
+                    <div class="companies9">Companies</div>
+                </div>
+                <div class="upload-job9">Upload Job</div>
+                <div class="about9">About</div>
+            </div>
+            <button class="rectangle-parent109">
+                <div class="frame-child116"></div>
+                <b class="sign-in7">Sign In</b>
+            </button>
+        </header> *@
+        <form class="group-form" method="post">
+            <div class="frame-child117"></div>
+            <div class="input-container">
+                <div class="account-sign-in">Account Sign In</div>
+            </div>
+            <div class="email-address-label1">
+                <div class="frame-parent50">
+                    <button class="rectangle-parent110">
+                        <div class="frame-child118"></div>
+                        <b class="user-account"><a asp-action="UserSignup" asp-controller="Job" style="text-decoration:none">User Account</a></b>
+                    </button>
+                    <button class="rectangle-parent111">
+                        <div class="frame-child119"></div>
+                        <b class="company-account"><a asp-action="CompanySinup" asp-controller="Job" style="text-decoration:none">Company Account</a></b>
+                    </button>
+                </div>
+            </div>
+            <div class="login-frame">
+                <div class="input-fields-container">
+                    <div class="login-text">
+                        <div class="email-address10">Email Address</div>
+                        <div class="rectangle-parent112">
+                            <div class="frame-child120"></div>
+                            <input class="exampleexamplecom"
+                                   placeholder="example@example.com"
+                                   type="text" asp-for="UserEmail"/>
+                        </div>
+                    </div>
+                    <div class="login-text1">
+                        <div class="password">Password</div>
+                        <div class="rectangle-parent113">
+                            <div class="frame-child121"></div>
+                            <input class="password1" placeholder="Password" type="text" asp-for="UserPassword"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sign-up-text-wrapper">
+                <button class="sign-up-text" type="submit">
+                    <div class="login">Login</div>
+                </button>
+            </div>
+            <div class="new-account-message">
+                <div class="do-not-have-container">
+                    <span class="do-not-have">Do not have an account </span>
+                    <span class="create-account"><a asp-action="UserSignup" asp-controller="Job" style="text-decoration:none">Create Account</a></span>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
